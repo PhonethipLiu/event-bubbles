@@ -63,7 +63,7 @@ document.getElementById("add-border")
 });
 
 // conditional statement on what we click on
-document.getElementByclass("starwars").addEventListener("click", (event) => {
+document.getElementById("starwars").addEventListener("click", (event) => {
     if (event.target.tagName.toLowerCase() === "li"){
         console.log("You clicked on an <li> item");
     }
